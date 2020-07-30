@@ -4,6 +4,20 @@ import './BackgroundSetter.css'
 
 const today = new Date();
 
+const morningBg = [
+	"https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+	"https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+	"https://images.unsplash.com/photo-1516636817578-7d6260c32e0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+	"https://images.unsplash.com/photo-1508717334315-37b159f24d04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+];
+
+
+ function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+let rndNumber = getRandomInt(3);
+
 
 function environmentSetter(){
 	
@@ -14,7 +28,7 @@ function environmentSetter(){
 		
 	}else if (today.getHours() > 16 && today.getHours() < 21){
 		
-		return(  document.body.style.backgroundImage = 'url(' + "https://images.unsplash.com/photo-1472120435266-53107fd0c44a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" + ')');
+		return(  document.body.style.backgroundImage = 'url(morningBg[rndNumber])');
 			
 	}else if (today.getHours() >= 21){
 		
@@ -22,7 +36,7 @@ function environmentSetter(){
 		
 	}else{
 		
-		return(  document.body.style.backgroundImage = 'url(' + "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" + ')');
+		return(  document.body.style.backgroundImage = 'url(morningBg[rndNumber])');
 		
 	}
 	
