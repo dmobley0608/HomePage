@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Component/App';
-import Tachyons from 'tachyons';
+import'tachyons';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

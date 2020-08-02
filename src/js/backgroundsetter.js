@@ -7,10 +7,10 @@ import nightBackground from '../js/nightbackgrounds';
 const today = new Date();
 
 // random backgrounds
-const randMorningBackground = randomNumber(morningBackgrounds.length);
-const randAfternoonBackground = randomNumber(afternoonBackgrounds.length);
-const randEveningBackground = randomNumber(eveningBackgrounds.length);
-const randNightBackground = randomNumber(nightBackground.length);
+const randomMorningBackground = randomNumber(morningBackgrounds.length);
+const randomAfternoonBackground = randomNumber(afternoonBackgrounds.length);
+const randomEveningBackground = randomNumber(eveningBackgrounds.length);
+const randomNightBackground = randomNumber(nightBackground.length);
 
 //random number generator
 function randomNumber(max){
@@ -18,26 +18,26 @@ function randomNumber(max){
 }  
 
 
-function environmentSetter(){
+function backgroundSetter(){
 	//morning
 	if((today.getHours() < 12) ){
 		
-		return(  document.body.style.backgroundImage = 'url('+ morningBackgrounds[randMorningBackground] +')');
+		return(  document.body.style.backgroundImage = 'url('+ morningBackgrounds[randomMorningBackground] +')');
 		//afternoon
 	}else if (today.getHours() > 11 && today.getHours() < 17){
 		
-		return(  document.body.style.backgroundImage = 'url('+ afternoonBackgrounds[randAfternoonBackground] +')');
+		return(  document.body.style.backgroundImage = 'url('+ afternoonBackgrounds[randomAfternoonBackground] +')');
 		//evening	
 	}else if (today.getHours() > 16 && today.getHours() < 21){
 		
-		return(  document.body.style.backgroundImage = 'url('+ eveningBackgrounds[randomNumber(eveningBackgrounds.length)] +')');
+		return(  document.body.style.backgroundImage = 'url('+ eveningBackgrounds[randomEveningBackground] +')');
 		//night
 	}else {
 		
-		return(  document.body.style.backgroundImage = 'url('+ nightBackground[randomNumber(nightBackground.length)] +')');
+		return(  document.body.style.backgroundImage = 'url('+ nightBackground[randomNightBackground] +')');
 		
 	}
 	
 }
 
-	export default environmentSetter;
+	export default backgroundSetter;
