@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/greeting.css'
 
 const today = new Date();
 const month = today.toLocaleString('default', { month: 'long' });
@@ -16,7 +16,7 @@ function Greeting(){
 	if(today.getHours() > 0 && today.getHours() < 12){
 		return(
 			<div>
-		    	<h1 className = " tc f1 w-100 washed-blue pt6"> Good Morning {name}! Today is {todaysDate}.</h1>
+		    	<h1 className = " tc f1 w-100 washed-blue pt6 morning"> Good Morning {name}! Today is {todaysDate}.</h1>
 			</div>
 		);
 	}else if(today.getHours() >= 12 && today.getHours() <= 16){
