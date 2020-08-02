@@ -22,13 +22,13 @@ function Greeting(){
 	}else if(today.getHours() >= 12 && today.getHours() <= 16){
 		return(
 			<div>
-		    	<h1 className = " bg tc f1 w-100 washed-blue pt7"> Good Afternoon {name}! Today is {todaysDate}.</h1>
+		    	<h1 className = " bg tc f1 w-100 light-green pt7"> Good Afternoon {name}! Today is {todaysDate}.</h1>
 			</div>
 		);
 	}else if(today.getHours() >= 17 && today.getHours() <= 20){
 		return(
 			<div>
-		    	<h1 className = " tc f1 w-100 washed-blue pt6"> Good Evening {name}! Today is {todaysDate}.</h1>
+		    	<h1 className = " tc f1 w-100 light-blue pt6"> Good Evening {name}! Today is {todaysDate}.</h1>
 			</div>
 		);
 	}else{

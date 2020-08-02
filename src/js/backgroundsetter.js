@@ -24,11 +24,11 @@ function environmentSetter(){
 		
 		return(  document.body.style.backgroundImage = 'url('+ morningBackgrounds[randMorningBackground] +')');
 		//afternoon
-	}else if (today.getHours() < 11 && today.getHours() < 17){
+	}else if (today.getHours() > 11 && today.getHours() < 17){
 		
 		return(  document.body.style.backgroundImage = 'url('+ afternoonBackgrounds[randAfternoonBackground] +')');
 		//evening	
-	}else if (today.getHours() >16 && today.getHours() < 21){
+	}else if (today.getHours() > 16 && today.getHours() < 21){
 		
 		return(  document.body.style.backgroundImage = 'url('+ eveningBackgrounds[randomNumber(eveningBackgrounds.length)] +')');
 		//night
