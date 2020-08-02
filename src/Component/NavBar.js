@@ -1,5 +1,6 @@
 import React from 'react';
 import Clock from './Clock'
+import '../styles/NavBar.css'
 
 
 function NavBar () {
@@ -8,7 +9,7 @@ function NavBar () {
 	    <nav className = 'f6 fw6 ttu tracked tl ' >    	
 		 	<a className ="link grow black dib mr3 mt3 br-pill bg-white pa2" href="https://smile.amazon.com/" title="Amazon">Go Shopping</a> 
 		 	<a className ="link grow black dib mr3 br-pill bg-white pa2" href="https://www.udemy.com/home/my-courses/learning/" title="Udemy">Udemy </a> 		   			   	     
-		 	<div className = 'fr white f4 dib mr4'> <Clock/></div>
+		 	<div className = 'fr white f4 dib mr4'> <Clock /></div>
 	    </nav>
 
 	</header>
