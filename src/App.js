@@ -10,12 +10,15 @@ import Searchbar from './Searchbar';
 function App() {
   return (
     <div>
+    	<BackgroundSetter/>
         <NavBar/>
         <Greeting/>
         <Searchbar/>        
     </div>
   );
 }
-BackgroundSetter();
+
+
+
 
 export default App;
