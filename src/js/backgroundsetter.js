@@ -1,8 +1,8 @@
 import '../styles/backgroundsetter.css';
-import morningBackgrounds from '../js/morningbackgrounds';
-import afternoonBackgrounds from '../js/afternoonBackgrounds';
-import eveningBackgrounds from '../js/eveningBackgrounds';
-import nightBackground from '../js/nightbackgrounds';
+import morningBackgrounds from '../data/morningbackgrounds';
+import afternoonBackgrounds from '../data/afternoonBackgrounds';
+import eveningBackgrounds from '../data/eveningBackgrounds';
+import nightBackground from '../data/nightbackgrounds';
 
 const today = new Date();
 
