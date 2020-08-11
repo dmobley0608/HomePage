@@ -1,16 +1,15 @@
 import React from 'react';
-import '../styles/App.css';
-import NavBar from './NavBar';
-import Greeting from './Greeting'
-import BackgroundSetter from '../js/backgroundsetter'
-import Searchbar from './Searchbar';
+import './App.css';
+import NavBar from './Component/navbar/NavBar';
+import Greeting from './Component/greeting/Greeting'
+import backgroundSetter from './Component/background/backgroundsetter'
+import Searchbar from './Component/searchbar/Searchbar';
 
 
 
 function App() {
   return (
     <div>
-    	<BackgroundSetter/>
         <NavBar/>
         <Greeting/>
         <Searchbar/>        
@@ -18,7 +17,6 @@ function App() {
   );
 }
 
-
-
+backgroundSetter();
 
 export default App;

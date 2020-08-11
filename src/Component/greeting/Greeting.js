@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/greeting.css'
+import './greeting.css'
 
 const today = new Date();
 const month = today.toLocaleString('default', { month: 'long' });

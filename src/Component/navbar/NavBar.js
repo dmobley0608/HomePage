@@ -1,6 +1,6 @@
 import React from 'react';
-import Clock from './Clock'
-import '../styles/NavBar.css'
+import Clock from '../clock/Clock'
+import './NavBar.css'
 
 
 function NavBar () {
