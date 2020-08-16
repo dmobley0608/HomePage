@@ -1,0 +1,15 @@
+footer {
+	position:fixed;
+	left: 0;
+	bottom:0;
+	font-family: Courier;
+	max-height: 35px;
+	background-color:rgba( 0, 200, 400, .85);
+}
+
+.footerP{
+	border: solid;
+	border-collapse: auto;
+	border-width: 1px;
+	width:350px;
+}

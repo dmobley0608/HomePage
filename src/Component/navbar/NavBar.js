@@ -5,15 +5,14 @@ import './NavBar.css'
 
 function NavBar () {
   return (
-  	<header className = ' w-100 ph3 pv2 pv3-ns ph3-m ph5-1'>
-	    <nav className = 'f6 fw6 ttu tracked tl ' >
-	    <ul>    	
-		 	<a className ="link grow black dib mr3 mt3 br-pill bg-white pa2" href="https://smile.amazon.com/" title="Amazon">Go Shopping</a> 
-		 	<a className ="link grow black dib mr3 br-pill bg-white pa2" href="https://www.udemy.com/home/my-courses/learning/" title="Udemy">Udemy </a> 		   			   	     
-		 	<div className = 'fr white f4 dib mr4'> <Clock /></div>
-		 </ul>
+  	<header className = ' w-100 shadow5'>
+	    <nav className = 'f6 fw6 dib tracked ttu' >
+	    <ul className='white pv1'>    	
+		 	<a className ="white underline grow mr3 " href="https://smile.amazon.com/" title="Amazon">Go Shopping</a> 
+		 	<a className ="white underline grow mr3  " href="https://www.udemy.com/home/my-courses/learning/" title="Udemy">Udemy </a> 	
+		 </ul>		 
 	    </nav>
-
+	    <div className = 'fr-l white f5 dib mr5 pv0 mt0 mobileNav'> <Clock /></div>
 	</header>
   );
 }

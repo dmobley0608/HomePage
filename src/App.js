@@ -4,6 +4,7 @@ import NavBar from './Component/navbar/NavBar';
 import Greeting from './Component/greeting/Greeting'
 import BackgroundSetter from './Component/background/backgroundsetter'
 import Searchbar from './Component/searchbar/Searchbar';
+import Footer from './Component/footer/Footer';
 
 
 
@@ -14,8 +15,7 @@ function App() {
         <NavBar/>
         <Greeting/>
         <Searchbar/>
-
-       
+        <Footer/>       
     </div>
   );
 }
