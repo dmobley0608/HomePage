@@ -35,7 +35,7 @@ function BackgroundSetter(){
 	}else if (today.getHours() > 11 && today.getHours() < 17){
 		
 		return(  
-			<div className='pushback center'>
+			<div className='pushback center darken'>
 				<img alt = 'logo' src={afternoonBackgrounds[randomAfternoonBackground]}/>
 		 	</div>
 		 );

@@ -5,7 +5,7 @@ import './Searchbar.css'
 
 function Searchbar(){
 	return(
-		<div className = "center">
+		<div className = "justify-center">
 			<form  method="get" action="https://www.google.com/search">					
 				<div className = 'form center pa2 bw1 bg-lightest-blue'>
 					<input className = "w-70 tc br-pill " type="text"  name="q" placeholder="What do you need to know?"/>	

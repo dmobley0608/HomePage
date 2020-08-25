@@ -1,6 +1,9 @@
-h1 {
+.greeting {
+	display: flex;
 	text-shadow: 5px 3px 2px #2F4F4F;
 	color: rgba( 150, 200, 255, 1);
+	justify-content: center;
+	margin-left: 17em;
 
 }
 
@@ -9,4 +12,9 @@ h1 {
 		margin-top:2em;		
 	}
 
+}
+
+.shadow1{
+	text-shadow: 5px 3px 2px #000;
+	text-decoration-color: black;
 }

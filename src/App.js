@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import NavBar from './Component/navbar/NavBar';
-import Greeting from './Component/greeting/Greeting'
-import BackgroundSetter from './Component/background/backgroundsetter'
-import Searchbar from './Component/searchbar/Searchbar';
+import QuoteCard from './Component/QuoteCard/QuoteCard';
+import Greeting from './Component/greeting/Greeting';
+import BackgroundSetter from './Component/background/backgroundsetter';
 import Footer from './Component/footer/Footer';
 
 
@@ -12,9 +12,9 @@ function App() {
   return (
     <div>  
     	<BackgroundSetter/> 
-        <NavBar/>
-        <Greeting/>
-        <Searchbar/>
+        <NavBar/>          
+        <QuoteCard />           
+        <Greeting/>            
         <Footer/>       
     </div>
   );
