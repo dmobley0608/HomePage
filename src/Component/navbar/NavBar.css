@@ -3,10 +3,18 @@ header{
 	margin-top: 0px;
 	max-height: 50px;	
 }
-@media only screen and (max-width: 500px) {
- .mobileNav {
+
+.nav {
   	font-size: .5em;
-  	margin-left: 7em;
+  	margin-left: 5em;
+  	float: right;
+  	margin-right: 1em;
+  }
+
+@media only screen and (max-width: 600px) {
+ .nav {
+  	font-size: .5em;
+  	margin-left: 5em;
   }
 
  

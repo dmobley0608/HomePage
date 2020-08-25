@@ -3,18 +3,26 @@
 	text-shadow: 5px 3px 2px #2F4F4F;
 	color: rgba( 150, 200, 255, 1);
 	justify-content: center;
-	margin-left: 17em;
+	font-size: 2em;
+	
 
 }
 
-@media only screen and (max-width: 900px){
-	.mobile{
-		margin-top:2em;		
-	}
 
-}
+
+
 
 .shadow1{
 	text-shadow: 5px 3px 2px #000;
 	text-decoration-color: black;
+}
+
+@media only screen and (max-width: 600px){
+	.greeting{		
+		margin-top:1em;
+		font-size: 1.5em;		
+		margin-left: 0em;
+		margin-right: 0px;		
+		
+	}
 }

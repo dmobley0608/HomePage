@@ -12,7 +12,7 @@ function NavBar () {
 		 	<a className ="white underline grow mr3  " href="https://www.udemy.com/home/my-courses/learning/" title="Udemy">Udemy </a> 	
 		 </ul>		 
 	    </nav>
-	    <div className = 'fr-l white f5 dib mr5 pv0 mt0 mobileNav'> <Clock /></div>
+	    <div className = ' white f5 dib  pv0 mt0 nav'> <Clock /></div>
 	</header>
   );
 }

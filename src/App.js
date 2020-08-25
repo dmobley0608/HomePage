@@ -12,9 +12,9 @@ function App() {
   return (
     <div>  
     	<BackgroundSetter/> 
-        <NavBar/>          
-        <QuoteCard />           
+        <NavBar/>              
         <Greeting/>            
+        <QuoteCard />
         <Footer/>       
     </div>
   );

@@ -15,15 +15,15 @@ const author = quotes[quoteNumber].author;
 
 const QuoteCard = () => {
 	return(
-		<div className='flex justify-around ml3 fl'>
+		<div className='center pr6 justify-around mobileCard'>
 		<Tilt className="Tilt pointer " options={{ max : 55 }} style={{ height:300 ,width: 200 }} >
 		<div className='Tilt-inner'>
-		<article className="card h-20 br3 pa3 white pa4-ns mt5   mb0 shadow-5 ">		  
-		  <p className="f5 mt0 underline">Quote of the moment:</p>
-		  <p className="f4 center">{currentQuote}</p>
+		<article className="card  br3 pa3 white pa4-ns mt5   mb0 shadow-5">		  
+		  <p className=" mt0 underline">Quote of the moment:</p>
+		  <p className=" center">{currentQuote}</p>
 		  
 		  <div className="tc">		    
-		    <p className="f5">~{author}~</p>		   
+		    <p className="">~{author}~</p>		   
 		  </div>
 		
 		</article>
