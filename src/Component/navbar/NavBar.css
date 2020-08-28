@@ -12,7 +12,8 @@
   }
 
   .weather{
-
+    margin-right: 1em;
+    margin-left: 2em;
   }
 
 @media only screen and (max-width: 900px) {
@@ -25,7 +26,8 @@
 
   .clock{
     margin-top: .5em;
-    padding-right: 5em;
+    padding-right: 0;
+    width:50%;
   }
 
  

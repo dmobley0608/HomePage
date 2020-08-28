@@ -30,7 +30,7 @@ class Weather extends React.Component{
 				condition: data.current.condition.text
 			})
 					
-			console.log(data);
+		
 		})
 
 	}

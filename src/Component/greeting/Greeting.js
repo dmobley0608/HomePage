@@ -3,10 +3,6 @@ import './greeting.css';
 
 
 const today = new Date();
-const month = today.toLocaleString('default', { month: 'long' });
-const day = today.getDate();
-const year = today.getFullYear();
-const todaysDate = month + " " + day + ", " + year;
 
 
 function Greeting(){
