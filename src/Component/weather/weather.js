@@ -36,7 +36,7 @@ class Weather extends React.Component{
 	}
 
 	getLocation(){
-		fetch("http://api.weatherapi.com/v1/current.json?key=914d4e0e50314ecf960105744202708&q=30507", {
+		fetch("https://api.weatherapi.com/v1/current.json?key=914d4e0e50314ecf960105744202708&q=30507", {
 			method: 'post'
 		}) 
 		.then(response => response.json())
