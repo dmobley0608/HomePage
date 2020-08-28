@@ -1,20 +1,31 @@
 
-header{
-	margin-top: 0px;
-	max-height: 50px;	
-}
-
 .nav {
-  	font-size: .5em;
+  	font-size: 1em;
   	margin-left: 5em;
-  	float: right;
-  	margin-right: 1em;
+  	float: right; 
+
   }
 
-@media only screen and (max-width: 600px) {
+  .clock{
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  .weather{
+
+  }
+
+@media only screen and (max-width: 900px) {
  .nav {
-  	font-size: .5em;
+    display: flex;
+    justify-content: left;
+  	font-size: .75em;
   	margin-left: 5em;
+  }
+
+  .clock{
+    margin-top: .5em;
+    padding-right: 5em;
   }
 
  

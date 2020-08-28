@@ -8,7 +8,7 @@
 
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1200px) {
 	.pushback{		
 		position: fixed; 
 		min-height: 100%;

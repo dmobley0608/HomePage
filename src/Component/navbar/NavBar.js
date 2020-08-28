@@ -1,19 +1,22 @@
 import React from 'react';
-import Clock from '../clock/Clock'
+import Clock from '../clock/Clock';
+import Weather from '../weather/weather';
 import './NavBar.css'
 
 
 function NavBar () {
   return (
-  	<header className = ' w-100 shadow5'>
-	    <nav className = 'f6 fw6 dib tracked ttu' >
-	    <ul className='white pv1'>    	
+  
+	    <nav className = 'shadow5 fw6 ttu w-100 nav' >
+	    <ul className='white pv1 dib'>    	
 		 	<a className ="white underline grow mr3 " href="https://smile.amazon.com/" title="Amazon">Go Shopping</a> 
 		 	<a className ="white underline grow mr3  " href="https://www.udemy.com/home/my-courses/learning/" title="Udemy">Udemy </a> 	
-		 </ul>		 
+		 </ul>	
+		  <div className = 'fr dib white clock'> <Clock /></div>
+		   <div className = 'fr dib white'> <Weather /></div>	 
 	    </nav>
-	    <div className = ' white f5 dib  pv0 mt0 nav'> <Clock /></div>
-	</header>
+	   
+	
   );
 }
 
