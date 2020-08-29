@@ -5,11 +5,22 @@ footer {
 	font-family: Courier;
 	max-height: 35px;
 	background-color:rgba( 0, 200, 400, .85);
+	text-align:center;
 }
 
-.footerP{
+.dmc{
 	border: solid;
 	border-collapse: auto;
-	border-width: 1px;
-	width:350px;
+	border-width: 3px;
+	width:375px;
+	font-size: 1em;
+	margin-right: 15em;
+	
+
 }
+
+.ip{
+	font-size: .75em;
+	padding-left: 2em;
+
+  }

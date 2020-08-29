@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ipify from 'ipify2';
 
 
 	
@@ -11,9 +11,10 @@ class Weather extends React.Component{
 		this.state = {
 			city: '',
 			state:'',
-			temp:0,
+			temp:null,
 			imgUrl:'',
 			condition:''
+			
 		}
 
 	}
@@ -25,7 +26,7 @@ class Weather extends React.Component{
 		.then(response => response.json())
 		.then(data => {
 			this.setState({
-				temp: data.current.temp_f,
+				temp: Math.round(data.current.temp_f),
 				imgUrl: data.current.condition.icon,
 				condition: data.current.condition.text
 			})
@@ -34,6 +35,8 @@ class Weather extends React.Component{
 		})
 
 	}
+
+
 
 	getLocation(){
 		fetch("https://api.weatherapi.com/v1/current.json?key=914d4e0e50314ecf960105744202708&q=30507", {
@@ -54,7 +57,7 @@ class Weather extends React.Component{
 
 	componentDidMount(){
 		this.getWeather();
-		this.getLocation();
+		this.getLocation();		
 	}
 		
 	

@@ -3,7 +3,7 @@
 	height: auto;
 	background:rgba(55, 65, 100, 0.63);
 	font-size: 1.25em;
-}
+	}
 
 @media only screen and (max-width: 600px){
 	.card{
