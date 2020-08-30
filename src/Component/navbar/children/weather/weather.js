@@ -1,5 +1,5 @@
 import React from 'react';
-import ipify from 'ipify2';
+
 
 
 	
@@ -68,7 +68,7 @@ class Weather extends React.Component{
 		const {temp, city, state, imgUrl, condition} = this.state;
 		return(
 			<div className = 'flex' >
-				<p className = 'f7 tc'>{condition}</p>
+				<p className = ''>{condition}</p>
 				<img className = '' alt = '' src={imgUrl}/>
 				<p className = ''>{temp} &deg;F in {city}, {state}</p>
 				

@@ -23,16 +23,24 @@
  .nav {
     display: flex;
     justify-content: left;
-  	font-size: .75em;
-  	margin-left: 5em;
+  	font-size: .5em;
+  	margin-left:0;
   }
 
   .clock{
-    margin-top: .5em;
+    margin-top: 1em;
     padding-right: 0;
     width:50%;
   }
 
+  .weather{
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    float:left;
+  }
+
+ 
  
 }
 

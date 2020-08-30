@@ -1,26 +1,54 @@
 footer {
-	position:fixed;
+	
+	position:absolute;
 	left: 0;
 	bottom:0;
 	font-family: Courier;
-	max-height: 35px;
+	height: 35px;
 	background-color:rgba( 0, 200, 400, .85);
-	text-align:center;
+		
 }
 
 .dmc{
-	border: solid;
-	border-collapse: auto;
-	border-width: 3px;
-	width:375px;
+	position:absolute;	
 	font-size: 1em;
-	margin-right: 15em;
-	
+	margin-top: 1em;
+	text-align: center;
 
+	
 }
 
 .ip{
 	font-size: .75em;
 	padding-left: 2em;
+	padding-top: 6px;
+	margin-left: 120em;
+
+
 
   }
+
+  @media only screen and (max-width: 600px){
+
+  	footer{
+  		align-items: center;
+  		max-height: auto;
+  		text-align: center;
+  	}
+
+	.dmc{
+		margin-right: 10em;
+		font-size: .5em;
+		
+	}
+
+	.ip{
+	font-size: .5em;
+	margin-left:0;
+	margin-right: 10em;
+	padding-top: 1.5em;
+	
+  }	
+}
+
+

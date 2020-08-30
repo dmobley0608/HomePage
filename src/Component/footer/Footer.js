@@ -5,19 +5,18 @@ import './Footer.css';
 
 const Footer = () => {
 	return (
-			<footer className="w-100 white ba f6">
-			<div className =''>
+			<footer className="w-100 white f6 center">
+				<div className ='w-100 center'>
 
-				<div className='dmc mt2 ml0 dib pl0 '>© 2020 
-  					<b className="ttu"> DMC Solutions</b>, All Rights Reserved
-  				</div>
-				
-				<div className = 'ip fl dib'>
-					<IpAddress/>  
-				</div>	
-
-  			</div>
-  				
+					<div className='dmc dib'>
+						<span>© 2020</span> 
+	  					<b className=''>  DMC Solutions</b>
+	  					<span>, All Rights Reserved</span>	  					
+	  				</div>
+	  				<div className = 'ip dib'>
+	  					<IpAddress className = ''/>
+	  				</div>
+	  			</div>  				
 			</footer>
 		);
 }
