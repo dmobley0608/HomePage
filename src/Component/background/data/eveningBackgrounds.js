@@ -1,9 +1,8 @@
 export const eveningBackgrounds = [
-	"https://images.unsplash.com/photo-1503058695716-c5f66a905312?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60",
-	"https://images.unsplash.com/photo-1484766280341-87861644c80d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60",
-	"https://images.unsplash.com/photo-1543443436-bc6deeff2eb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60",
-	"https://images.unsplash.com/photo-1500817487388-039e623edc21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=60",
-	"https://images.unsplash.com/photo-1490682143684-14369e18dce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60"
+	"https://images.unsplash.com/photo-1505832018823-50331d70d237?ixlib=rb-1.2.1",
+	"https://images.unsplash.com/photo-1571918372905-b98f68fe214a?ixlib=rb-1.2.1",
+	"https://images.unsplash.com/photo-1560689939-c5f3623eaf1d?ixlib=rb-1.2.1"
+	
 
 ];
 

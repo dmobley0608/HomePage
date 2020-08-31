@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Component",
+    "\\src\\Component\\QuoteCard",
+    "\\src\\Component\\QuoteCard\\data"
+  ],
+  "SelectedNode": "\\src\\Component\\QuoteCard\\data\\quotes.js",
+  "PreviewInSolutionExplorer": false
+}

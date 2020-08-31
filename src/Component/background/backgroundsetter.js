@@ -28,7 +28,7 @@ function BackgroundSetter(){
 		
 		return(  
 			<div className='pushback center'>
-				<img alt = 'logo' src={morningBackgrounds[randomMorningBackground]}/>
+				<img alt = 'logo' src={morningBackgrounds[randomEveningBackground]}/>
 		 	</div>
 		);
 		//afternoon
@@ -36,7 +36,7 @@ function BackgroundSetter(){
 		
 		return(  
 			<div className='pushback center darken'>
-				<img alt = 'logo' src={afternoonBackgrounds[randomAfternoonBackground]}/>
+				<img alt='logo' src={afternoonBackgrounds[randomEveningBackground]}/>
 		 	</div>
 		 );
 		//evening	

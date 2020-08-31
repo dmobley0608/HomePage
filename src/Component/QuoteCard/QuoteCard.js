@@ -1,4 +1,5 @@
 import React from 'react';
+import quotes from './data/quotes';
 import './QuoteCard.css';
 import Tilt from 'react-tilt';
 
@@ -9,45 +10,48 @@ class QuoteCard extends React.Component {
 		super();
 		this.state = {
 			author: '',
-			quote:''
+			quote: '',
+			imageUrl:''
 		}
 	}
 
-	getQuote(){
-		fetch("https://favqs.com/api/qotd",	{"method": 'GET'})
-			.then(response => response.json())
-			.then(data =>{	
-				this.setState({
-					author: data.quote.author,
-					quote: data.quote.body
-				});
-				
-			})
-			.catch(err => {
-				console.log(err);
-			});
+	randomNumber() {
+		return Math.floor(Math.random()*quotes.length);
+    }	
+
+	getQuote(i){
+		this.setState({
+			quote: quotes[i].quote,
+			author: quotes[i].person,
+			imageUrl: quotes[i].imageUrl
+		});
+		
 
 	}
 
 	
 
 	componentDidMount(){
-		this.getQuote();
+		this.getQuote(this.randomNumber());
 	}
 
 
 
-	render(){
+	render() {
+		const { author, quote, imageUrl } = this.state;
+		
 		return(
-			<div className='center pr6 justify-around mobileCard'>
-				<Tilt className="Tilt pointer " options={{ max : 55 }} style={{ height:300 ,width: 200 }} >
+			<div className='tj-c  pb5 cardCenter'>
+				<Tilt className="Tilt pointer" options={{ max : 55 }} style={{ height:300 ,width: 200 }} >
 					<div className='Tilt-inner'>
-						<article className="card  br3 pa3 white pa4-ns mt5   mb0 shadow-5">		  
-							  <p className=" mt0 tracked ttu underline">Quote of the moment:</p>
-							  <p className=" center">{this.state.quote}</p>
+						<article className="card br4 pa3 white pa4-ns mt0 mb3 shadow-5">		  
+							<p className=" mt0 tracked ttu underline">Quote from {author }:</p>
+							<img className='br4  fl mr3' style={{ width: '100px' }} alt='' src={imageUrl} />
+							<p className=" center">{quote}</p>
 							  
-							  <div className="tc">		    
-							    	<p className="">~{this.state.author}~</p>		   
+							<div className="tc">
+								
+							    	<p className="">~{author}~</p>		   
 							  </div>
 						
 						</article>

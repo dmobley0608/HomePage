@@ -1,9 +1,14 @@
 .card{
-	width:350px;
-	height: auto;
+	width:500px;	
 	background:rgba(55, 65, 100, 0.63);
 	font-size: 1.25em;
+	
 	}
+.cardCenter{
+	display:flex;
+	justify-content:center;
+	padding-right:20em;
+}
 
 @media only screen and (max-width: 600px){
 	.card{
@@ -11,6 +16,11 @@
 		width:300px;
 		height: auto;
 		background:rgba(55, 65, 100, 0.63);
+	}
+
+	.cardCenter{
+		padding-left:10em;
+		
 	}
 }
 
