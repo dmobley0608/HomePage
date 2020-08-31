@@ -10,7 +10,7 @@ const quotes = [
     {
         quote: "I am what I am, an' I'm not ashamed. 'Never be ashamed,' my ol' dad used ter say, 'there's some who'll hold it against you, but they're not worth botherin' with.",
         person: " Rubeus Hagrid",
-        imageUrl: "http://vignette2.wikia.nocookie.net/p__/images/e/e4/Reubeus_Hagrid_in_The_Philosophers"+"'s_Stone.jpeg/revision/latest?cb=20160113150114&path-prefix=protagonist"
+        imageUrl: "https://vignette2.wikia.nocookie.net/p__/images/e/e4/Reubeus_Hagrid_in_The_Philosophers"+"'s_Stone.jpeg/revision/latest?cb=20160113150114&path-prefix=protagonist"
     },
 
     {
