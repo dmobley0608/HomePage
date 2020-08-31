@@ -3,9 +3,14 @@
     "",
     "\\src",
     "\\src\\Component",
+    "\\src\\Component\\background",
+    "\\src\\Component\\background\\data",
+    "\\src\\Component\\footer",
+    "\\src\\Component\\greeting",
+    "\\src\\Component\\navbar",
     "\\src\\Component\\QuoteCard",
     "\\src\\Component\\QuoteCard\\data"
   ],
-  "SelectedNode": "\\src\\Component\\QuoteCard\\data\\quotes.js",
+  "SelectedNode": "\\src\\Component\\footer\\Footer.css",
   "PreviewInSolutionExplorer": false
 }
