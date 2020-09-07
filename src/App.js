@@ -13,8 +13,8 @@ function App() {
     <div>  
     	<BackgroundSetter/> 
         <NavBar/>              
-        <Greeting/>            
-        <QuoteCard />
+          <Greeting />
+          <QuoteCard />
         <Footer/>       
     </div>
   );

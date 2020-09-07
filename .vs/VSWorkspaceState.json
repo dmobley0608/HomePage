@@ -3,14 +3,13 @@
     "",
     "\\src",
     "\\src\\Component",
-    "\\src\\Component\\background",
     "\\src\\Component\\background\\data",
-    "\\src\\Component\\footer",
-    "\\src\\Component\\greeting",
+    "\\src\\Component\\footer\\ipAddress",
     "\\src\\Component\\navbar",
-    "\\src\\Component\\QuoteCard",
+    "\\src\\Component\\navbar\\children",
+    "\\src\\Component\\navbar\\children\\weather",
     "\\src\\Component\\QuoteCard\\data"
   ],
-  "SelectedNode": "\\src\\Component\\background\\backgroundsetter.js",
+  "SelectedNode": "\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
